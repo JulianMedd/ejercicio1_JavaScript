@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var nombre = prompt("ingrese su nombre: ");
+        console.log("hola"+ nombre);
+        
+        var edad = prompt("cual es su edad"+ nombre + "? :");
+
+            if(edad => 18){
+                alert("BIENVENIDO");
+            }else{
+                alert("No puedes ingresar");
+            }
+        
+        var pelicula = "forest gump";
+        var puntos = 0;
+
+        var peliculaUsuario = prompt("ingrese el titulo de una pelicula: ");
+            
+            if(pelicula == peliculaUsuario){
+                alert("CORRECTO");
+                puntos++;
+            }else{
+                alert("INCORRECTO");
+            }
+        
+        var anoDeEstreno = 1994;
+        var anoDeEstrenoUsuario = prompt("ingrese año de estreno de la pelicula: ");
+
+            if(anoDeEstreno == anoDeEstrenoUsuario){
+                alert("CORRECTO");
+                puntos++;
+            }else{
+                alert("INCORRECTO");
+            }
+
+        alert("su puntaje es: " + puntos);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
